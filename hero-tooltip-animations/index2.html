@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script>document.documentElement.className = 'js';</script>
+
+  <style>
+    a:hover,
+    a:focus,
+    a:visited {
+      color:inherit;
+    }
+    .navbar{
+      position: fixed;
+      top:0px;
+    }
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    .row{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100%;
+      margin-left: 20px;
+    }
+    .tooltip__trigger-text, h1{
+      padding: 0px;
+      font-family:aleo;
+      font-size:4em;
+    }
+    .tooltip__trigger-text{
+      border-bottom: 5px dotted #ddd
+    }
+    .grid__item{
+      padding: 0px
+    }
+   
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">Azimuth</a>
+    </div>
+  </nav>
+  <div class="row">
+    <h1>We are &nbsp;</h1>
+    <div class="grid__item" style="display:inline-block">
+      <div class="tooltip tooltip--sadoc" data-type="sadoc">
+        <div class="tooltip__trigger" role="tooltip" aria-describedby="info-sadoc">
+          <h1 class="tooltip__trigger-text">Azimuth</h1>
+        </div>
+        <div class="tooltip__base">
+          <svg class="tooltip__shape" width="100%" height="100%" viewBox="0 0 400 300">
+            <path d="M 32.1,42.7 54.5,257 185,257 193,269 200,282 207,269 214,257 342,257 368,23.9 Z"/>
+          </svg>
+          <div class="tooltip__content" id="info-sadoc">We don't see things as they are, we see them as we are.</div>
+        </div>
+      </div>
+    </div> 
+    </div>
+  
+  
+  <script src="js/anime.min.js"></script>
+  <script src="js/charming.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
