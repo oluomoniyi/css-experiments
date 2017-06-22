@@ -7,6 +7,8 @@ This is my use case for the tooltip animations created on [Article on Codrops](h
 
 It allows you to add a tooltip to specific content using SVGs and animating them with [Anime.js](anime-js.com).
 
+See it in action here [http://oluomoniyi.com/experiments/hero-tooltip-animations/](http://oluomoniyi.com/experiments/hero-tooltip-animations/)
+
 ### Credits
 ```
 - [Article on Codrops](https://tympanus.net/codrops/?p=31283)
