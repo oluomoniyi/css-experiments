@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="shortcut icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/arrow.css" />
   <script>document.documentElement.className = 'js';</script>
 
   <style>
     a:hover,
     a:focus,
     a:visited {
-      color:inherit;
-    }
-    .navbar{
-      position: fixed;
-      top:0px;
+      color:#3d3a3a;
     }
     body, html {
       height: 100%;
       margin: 0;
+      background:#000;
     }
     .row{
       display: flex;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: center;
       height: 100%;
       margin-left: 20px;
     }
     .tooltip__trigger-text, h1{
       padding: 0px;
+      margin: 0px;
       font-family:aleo;
-      font-size:4em;
+      font-size:5.9vw;
+      color: #eee
     }
     .tooltip__trigger-text{
-      border-bottom: 5px dotted #ddd
+      border-bottom: 5px dotted #0c0c0c;
+      color:#3d3a3a;
     }
     .grid__item{
       padding: 0px
@@ -43,11 +43,6 @@
   </style>
 </head>
 <body>
-  <nav class="navbar">
-    <div class="container">
-        <a class="navbar-brand" href="#">Azimuth</a>
-    </div>
-  </nav>
   <div class="row">
     <h1>We are &nbsp;</h1>
     <div class="grid__item" style="display:inline-block">
@@ -59,12 +54,14 @@
           <svg class="tooltip__shape" width="100%" height="100%" viewBox="0 0 400 300">
             <path d="M 32.1,42.7 54.5,257 185,257 193,269 200,282 207,269 214,257 342,257 368,23.9 Z"/>
           </svg>
-          <div class="tooltip__content" id="info-sadoc">We don't see things as they are, we see them as we are.</div>
+          <div class="tooltip__content" id="info-sadoc">the direction of a celestial object from the observer, expressed as the angular distance from the north or south point of the horizon to the point at which a vertical circle passing through the object intersects the horizon.</div>
         </div>
       </div>
     </div> 
     </div>
-  
+    <div class="arrow bounce">
+
+</div>
   
   <script src="js/anime.min.js"></script>
   <script src="js/charming.min.js"></script>
