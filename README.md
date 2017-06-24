@@ -11,7 +11,13 @@ See it in action here [http://oluomoniyi.com/experiments/hero-tooltip-animations
 
 ### Credits
 ```
-- [Article on Codrops](https://tympanus.net/codrops/?p=31283)
-- [Anime.js](anime-js.com) by Julian Garnier
-- [Charming.js](https://github.com/yuanqing/charming) by Yuan Qing
+- [Article on Codrops] (https://tympanus.net/codrops/?p=31283)
+- [Anime.js] (anime-js.com) by Julian Garnier
+- [Charming.js] (https://github.com/yuanqing/charming) by Yuan Qing
 ```
+
+# RandomRectangles
+
+Inspired by the end credits animation of [Legion](https://en.wikipedia.org/wiki/Legion_(TV_series)). BIG FAN! I wrote this tiny bit of CSS/HTML/JS that just displays two random rectangles with random dimensions, appear on random locations on the page.
+
+<a href="http://oluomoniyi.com/experiments/randomrectangles/">http://oluomoniyi.com/experiments/randomrectangles/</a>
