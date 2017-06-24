@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>CSS Rectangles inspired by Legion end credits</title>
+  <meta name="description" content="HTML5">
+  <meta name="author" content="Olu Omoniyi">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/style.css">
+<style>
+body{
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+}
+#pink{
+  background: pink;
+}
+#green{
+  background: green;
+}
+</style>
+</head>
+
+<body>
+    <div class="rectangle" id="pink"></div>
+    <div class="rectangle" id="green"></div>
+
+    <script type="text/javascript">
+    function Randoms(min,max){
+        return Math.floor(Math.random()*(max-min+1)+min);
+    }
+    function DrawRandoms (){
+        for(i=0;i<100;i++){
+          document.getElementById('pink').style.width = Randoms(10,50)+"%";
+          document.getElementById('pink').style.height = Randoms(10,20)+"%";
+          document.getElementById('pink').style.top = Randoms(10,80)+"%";
+          document.getElementById('pink').style.left = Randoms(10,80)+"%";
+
+          document.getElementById('green').style.width = Randoms(10,30)+"%";
+          document.getElementById('green').style.height = Randoms(15,40)+"%";
+          document.getElementById('green').style.top = Randoms(10,70)+"%";
+          document.getElementById('green').style.left = Randoms(10,80)+"%";
+        }
+      };
+      setInterval(DrawRandoms, 1000);
+    </script>
+</body>
+</html>
