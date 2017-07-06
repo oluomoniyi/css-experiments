@@ -11,9 +11,9 @@ See it in action here [http://oluomoniyi.com/experiments/hero-tooltip-animations
 
 ### Credits
 ```
-- [Article on Codrops] (https://tympanus.net/codrops/?p=31283)
-- [Anime.js] (anime-js.com) by Julian Garnier
-- [Charming.js] (https://github.com/yuanqing/charming) by Yuan Qing
+- [Article on Codrops](https://tympanus.net/codrops/?p=31283)
+- [Anime.js](anime-js.com) by Julian Garnier
+- [Charming.js](https://github.com/yuanqing/charming) by Yuan Qing
 ```
 
 # RandomRectangles
