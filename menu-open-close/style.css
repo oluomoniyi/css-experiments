@@ -1,0 +1,42 @@
+body {
+  background-color: #008789;
+  transition: 300ms ease-in-out background-color;
+}
+body.open {
+  background-color: #d12c5b;
+}
+
+.arrow-down-close {
+  width: 100px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.arrow-down-close:before, .arrow-down-close:after {
+  content: '';
+  display: inline-block;
+  height: 60px;
+  width: 10px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  transition: 300ms ease-in-out transform;
+}
+.arrow-down-close:before {
+  transform: rotate(-45deg);
+  left: 18px;
+  top: -4px;
+}
+.arrow-down-close:after {
+  transform: rotate(45deg);
+  left: 40px;
+  top: -4px;
+}
+.arrow-down-close.open:before {
+  transform: translateX(17px) rotate(-45deg);
+}
+.arrow-down-close.open:after {
+  transform: translateX(-17px) rotate(45deg);
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+    <html>
+        <html lang="en">
+        <head>
+          <meta charset="utf-8">
+        
+          <title>menu with open and close effect</title>
+          <meta name="description" content="HTML5">
+          <meta name="author" content="Olu Omoniyi">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+          <link rel="stylesheet" href="style.css">
+        <body>
+            <a class="arrow-down-close" onclick="openDropdown(this)">
+            </a>
+            
+            <script type="text/javascript">
+                function openDropdown(element) {
+                    element.classList.toggle('open');
+                    document.getElementsByTagName('body')[0].classList.toggle('open');
+                };
+            </script>
+        </body>
+    </html>
