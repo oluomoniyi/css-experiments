@@ -16,10 +16,7 @@ See it in action here [http://oluomoniyi.com/experiments/hero-tooltip-animations
 - [Charming.js](https://github.com/yuanqing/charming) by Yuan Qing
 ```
 
-#react-dates
-Cloned from Airbnb's react dates.
-
-#two-random-rectangles
+# two-random-rectangles
 
 Inspired by the end credits animation of [Legion](https://en.wikipedia.org/wiki/Legion_(TV_series)). BIG FAN! I wrote this tiny bit of CSS/HTML/JS that just displays two random rectangles with random dimensions, appear on random locations on the page.
 
